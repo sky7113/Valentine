@@ -15,12 +15,12 @@ export const SuccessView = () => {
 
     // USER: Replace these with your own URLs!
     const images = [
-        "/us1.jpeg",
-        "/us2.jpeg",
-        "/us3.jpeg",
-        "/us4.jpeg",
-        "/us5.jpeg",
-        "/us6.jpeg"
+        "us1.jpeg",
+        "us2.jpeg",
+        "us3.jpeg",
+        "us4.jpeg",
+        "us5.jpeg",
+        "us6.jpeg"
     ];
 
     useEffect(() => {
@@ -132,7 +132,7 @@ export const SuccessView = () => {
         <div className="flex flex-col items-center justify-center min-h-screen p-4 text-center z-20 relative perspective-1000 overflow-hidden">
             <audio
                 ref={audioRef}
-                src="/song.mp3"
+                src="song.mp3"
                 loop
                 onTimeUpdate={handleTimeUpdate}
                 onLoadedMetadata={handleLoadedMetadata}
@@ -203,7 +203,7 @@ export const SuccessView = () => {
                                 className="flex flex-col items-center"
                             >
                                 <img
-                                    src="/bear.gif" // Reusing bear gif for prompt
+                                    src="bear.gif" // Reusing bear gif for prompt
                                     alt="Music Prompt Bear"
                                     className="w-48 h-48 mx-auto mb-6 object-contain"
                                 />
@@ -235,7 +235,7 @@ export const SuccessView = () => {
                         {view === 'selection' && (
                             <>
                                 <img
-                                    src="/dance.gif"
+                                    src="dance.gif"
                                     alt="Happy Dance"
                                     className="w-48 h-48 mx-auto mb-6 object-contain"
                                 />
@@ -284,7 +284,7 @@ export const SuccessView = () => {
                                 className="flex flex-col items-center"
                             >
                                 <img
-                                    src="/hug.gif"
+                                    src="hug.gif"
                                     alt="Hugging"
                                     className="w-64 h-64 mx-auto mb-6 object-contain"
                                 />
@@ -321,7 +321,7 @@ export const SuccessView = () => {
                                 className="flex flex-col items-center"
                             >
                                 <img
-                                    src="/kiss.gif"
+                                    src="kiss.gif"
                                     alt="Kissing"
                                     className="w-64 h-64 mx-auto mb-6 object-contain"
                                 />
@@ -358,10 +358,10 @@ export const SuccessView = () => {
                                 className="flex flex-col items-center w-full"
                             >
                                 <div className="grid grid-cols-2 gap-4 mb-6 w-full max-w-sm">
-                                    <img src="/beat1.gif" alt="Beat 1" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
-                                    <img src="/beat2.gif" alt="Beat 2" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
-                                    <img src="/beat3.gif" alt="Beat 3" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
-                                    <img src="/beat4.gif" alt="Beat 4" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
+                                    <img src="beat1.gif" alt="Beat 1" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
+                                    <img src="beat2.gif" alt="Beat 2" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
+                                    <img src="beat3.gif" alt="Beat 3" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
+                                    <img src="beat4.gif" alt="Beat 4" className="w-full h-32 object-contain rounded-lg shadow-md bg-purple-50" />
                                 </div>
                                 <h1 className="text-3xl font-bold text-purple-500 mb-4 font-['Comic_Sans_MS',_sans-serif]">
                                     OW! OW! 🤕
@@ -436,7 +436,7 @@ export const SuccessView = () => {
                                 className="flex flex-col items-center text-center"
                             >
                                 <img
-                                    src="/promise.gif"
+                                    src="promise.gif"
                                     alt="Promise Bear"
                                     className="w-48 h-48 mx-auto mb-6 object-contain rounded-xl"
                                 />
