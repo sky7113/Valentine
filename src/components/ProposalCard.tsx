@@ -36,7 +36,7 @@ export const ProposalCard = ({ onSuccess }: ProposalCardProps) => {
                 onMouseLeave={resetNoBtn}
             >
                 <img
-                    src="bear.gif"
+                    src={`${import.meta.env.BASE_URL}bear.gif`}
                     alt="Cute Bear (Please save your GIF as bear.gif in the public folder)"
                     className="w-48 h-48 mx-auto mb-6 object-contain"
                 />
